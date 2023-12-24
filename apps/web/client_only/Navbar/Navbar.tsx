@@ -7,9 +7,11 @@ import {
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
 
+import styles from "./styles.module.scss";
+
 const Navbar = () => {
   return (
-    <div className="w-full bg-red-500">
+    <div className={styles.nav}>
       <NavigationMenu>
         <NavigationMenuList>
           <NavigationMenuItem>
