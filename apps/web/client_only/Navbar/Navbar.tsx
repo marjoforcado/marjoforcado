@@ -8,10 +8,12 @@ import {
 } from "@/components/ui/navigation-menu";
 
 import styles from "./styles.module.scss";
+import { Brand } from "@/app/components";
 
 const Navbar = () => {
   return (
     <div className={styles.nav}>
+      <Brand />
       <NavigationMenu>
         <NavigationMenuList>
           <NavigationMenuItem>
