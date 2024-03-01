@@ -1,3 +1,9 @@
+import { IntroductionCard } from "./components";
+
 export default function Page() {
-  return <div>here</div>;
+  return (
+    <div className="container">
+      <IntroductionCard />
+    </div>
+  );
 }
