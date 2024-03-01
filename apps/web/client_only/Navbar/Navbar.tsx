@@ -5,8 +5,7 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-} from "@/components/ui/navigation-menu";
-
+} from "@/shadcn/components/ui/navigation-menu";
 import styles from "./styles.module.scss";
 import { Brand } from "@/app/components";
 
