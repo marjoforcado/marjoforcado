@@ -1,7 +1,7 @@
 ---
-name: "`web` Feature request"
+name: Feature request
 about: Suggest an idea for this project
-title: "`feat` feature name"
+title: "`web` Feature name"
 labels: enhancement
 assignees: marjoforcado
 
