@@ -12,17 +12,22 @@ const Page = () => {
       style={{ height: "calc(100vh - 4rem)", background: "#253237" }}
       pages={3}
     >
-      <ParallaxLayer offset={0.5} speed={0.5}>
-        <div className="px-3">
+      <ParallaxLayer offset={0.1} speed={0.5}>
+        <div className="px-3 flex flex-col items-center gap-4 max-w-7xl m-auto">
           <p className="text-8xl font-black font-sans text-white">
-            Building the Web
+            &lt;MRJFRCDO/&gt;
           </p>
-          <p className="text-xl font-sans text-slate-100">
-            The web is a scary place for businesses who don't know how to
-            navigate it. We're here to help. We build websites and web
-            applications that do what you need them to do. We'll help you figure
-            out what that is you need and how to get it done.
-          </p>
+          <div className="max-w-xl">
+            <p className="text-xl font-sans text-slate-100 text-center">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Molestias id corrupti laborum fugiat mollitia corporis, odio
+              officia quidem in quisquam, quod sed eos doloremque amet possimus
+              deleniti quae quas! Deleniti, nam? Delectus atque qui reiciendis
+              exercitationem fugiat laborum dolorem minus error amet
+              consequatur! Deserunt eveniet laborum, neque delectus distinctio
+              itaque?
+            </p>
+          </div>
         </div>
       </ParallaxLayer>
       <ParallaxLayer

@@ -1,3 +1,5 @@
+"use client";
+
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -5,12 +7,11 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-} from "@/components/ui/navigation-menu";
-
+} from "@/shadcn/components/ui/navigation-menu";
 import styles from "./styles.module.scss";
 import { Brand } from "@/app/components";
 
-const Navbar = () => {
+export const Navbar = () => {
   return (
     <div className={styles.nav}>
       <Brand />
@@ -27,5 +28,3 @@ const Navbar = () => {
     </div>
   );
 };
-
-export default Navbar;

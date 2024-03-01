@@ -1,3 +1,1 @@
-import Brand from "./Brand";
-
-export { Brand };
+export * from "./Brand";
