@@ -1,9 +1,9 @@
 ---
-name: Feature request
+name: "`web` Feature request"
 about: Suggest an idea for this project
 title: "`feat` feature name"
-labels: ''
-assignees: ''
+labels: enhancement
+assignees: marjoforcado
 
 ---
 
