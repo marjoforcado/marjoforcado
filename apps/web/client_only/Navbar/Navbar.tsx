@@ -1,3 +1,5 @@
+"use client";
+
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -9,7 +11,7 @@ import {
 import styles from "./styles.module.scss";
 import { Brand } from "@/app/components";
 
-const Navbar = () => {
+export const Navbar = () => {
   return (
     <div className={styles.nav}>
       <Brand />
@@ -26,5 +28,3 @@ const Navbar = () => {
     </div>
   );
 };
-
-export default Navbar;

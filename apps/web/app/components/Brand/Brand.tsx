@@ -1,7 +1,5 @@
 import styles from "./styles.module.scss";
 
-const Brand = () => {
+export const Brand = () => {
   return <p className={styles.brand}>mrjfrcdo</p>;
 };
-
-export default Brand;
