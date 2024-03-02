@@ -1,10 +1,8 @@
 "use client";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "./styles.module.scss";
 import { Text } from "..";
 import { Avatar } from "@/client_only";
-import { cn } from "@/lib/utils";
 
 export const IntroductionCard = () => {
   return (
@@ -23,7 +21,7 @@ export const IntroductionCard = () => {
         Philippines. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
         Veritatis, assumenda?
       </Text>
-      <div className="flex gap-3">
+      <div className="space-x-3">
         <i className="ri-twitter-x-line ri-xl" />
         <i className="ri-instagram-line ri-xl" />
         <i className="ri-linkedin-box-fill ri-xl" />
