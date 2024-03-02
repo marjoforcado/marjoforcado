@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
 import "./globals.css";
+import "../public/fonts/RemixIcon_Font/remixicon.css";
+
 import { Navbar } from "@/client_only";
 
 const inter = Inter({ subsets: ["latin"] });
