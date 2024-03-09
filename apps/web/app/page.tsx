@@ -14,7 +14,7 @@ export default function Page() {
     <div className="container flex flex-col gap-5 mx-auto">
       <IntroductionCard />
       <Separator />
-      <div className="space-y-3">
+      <div className="space-y-10">
         <ArticleCard />
         <ArticleCard />
         <ArticleCard />
