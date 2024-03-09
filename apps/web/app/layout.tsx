@@ -5,6 +5,7 @@ import "./globals.css";
 import "../public/fonts/RemixIcon_Font/remixicon.css";
 
 import { Navbar } from "@/client_only";
+import { cn } from "@/lib/utils";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,8 +21,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Navbar />
+      <body className={cn(inter.className, "py-3 space-y-9")}>
+        <div className="container">
+          <Navbar />
+        </div>
         {children}
       </body>
     </html>
