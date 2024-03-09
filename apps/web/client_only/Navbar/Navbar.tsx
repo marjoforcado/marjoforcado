@@ -33,7 +33,7 @@ export const Navbar = () => {
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="/about" passHref legacyBehavior>
+              <Link href="/blogs" passHref legacyBehavior>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                   Blogs
                 </NavigationMenuLink>
