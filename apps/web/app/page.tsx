@@ -7,7 +7,7 @@ export default function Page() {
     <div className="container flex flex-col gap-5 mx-auto">
       <IntroductionCard />
       <Separator />
-      <div className="grid grid-cols-2 gap-10">
+      <div className="grid md:grid-cols-2 gap-10">
         <div className="space-y-5">
           <ArticleCard
             title="Title"
