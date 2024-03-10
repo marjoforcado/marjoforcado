@@ -1,13 +1,6 @@
 import { Separator } from "@/shadcn/components/ui/separator";
 import { ArticleCard, IntroductionCard, Text } from "./components";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/shadcn/components/ui/card";
+import { NewsLetterForm } from "@/client_only/forms";
 
 export default function Page() {
   return (
@@ -62,7 +55,9 @@ export default function Page() {
             exercitationem.
           </ArticleCard>
         </div>
-        <div>here</div>
+        <div>
+          <NewsLetterForm />
+        </div>
       </div>
     </div>
   );

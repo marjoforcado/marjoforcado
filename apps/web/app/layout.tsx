@@ -4,8 +4,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import "../public/fonts/RemixIcon_Font/remixicon.css";
 
-import { Navbar } from "@/client_only";
 import { cn } from "@/lib/utils";
+import { Navbar } from "@/client_only/components";
 
 const inter = Inter({ subsets: ["latin"] });
 
