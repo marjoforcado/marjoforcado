@@ -12,7 +12,9 @@ export const NewsLetterForm = () => {
   return (
     <Card>
       <CardHeader>
-        <CardTitle>Stay up to date</CardTitle>
+        <CardTitle className="text-lg">
+          <i className="ri-mail-line" /> Stay up to date
+        </CardTitle>
         <CardDescription>
           Get notified when I publish something new, and unsubscribe at any
           time.
