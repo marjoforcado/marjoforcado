@@ -2,7 +2,7 @@
 
 import styles from "./styles.module.scss";
 import { Text } from "..";
-import { Avatar } from "@/client_only";
+import { Avatar } from "@/client_only/components";
 
 export const IntroductionCard = () => {
   return (
