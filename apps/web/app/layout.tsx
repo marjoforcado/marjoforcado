@@ -6,6 +6,8 @@ import "../public/fonts/RemixIcon_Font/remixicon.css";
 
 import { cn } from "@/lib/utils";
 import { Navbar } from "@/client_only/components";
+import { Separator } from "@/shadcn/components/ui/separator";
+import { Footer } from "./components";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,6 +28,10 @@ export default function RootLayout({
           <Navbar />
         </div>
         {children}
+        <div className="container">
+          <Separator />
+          <Footer />
+        </div>
       </body>
     </html>
   );
