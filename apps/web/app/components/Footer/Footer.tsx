@@ -27,7 +27,9 @@ export const Footer = () => {
           </Button>
         </Link>
       </div>
-      <Text variant="muted">© 2024 Marjo Forcado. All rights reserved.</Text>
+      <Text className="mr-4" variant="muted">
+        © 2024 Marjo Forcado. All rights reserved.
+      </Text>
     </div>
   );
 };
