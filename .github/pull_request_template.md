@@ -6,7 +6,7 @@
 
 ## Related Issue
 
-[Closes #IssueNumber] <!-- Replace 'IssueNumber' with the actual issue number -->
+[Closes #IssueNumber]
 
 ## Type of Change
 
@@ -33,4 +33,6 @@
 
 [Include any additional information that might be helpful for reviewers.]
 
-## @marjoforcado
+## Reviewer
+
+- @marjoforcado
