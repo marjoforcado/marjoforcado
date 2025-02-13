@@ -17,6 +17,7 @@ Throughout my career, I've had the privilege to collaborate with various compani
 
 - Design and architect the software and hardware technology of the cloud services
 - Plan and execute key features of the application
+- Discuss product related updates with investors
 
 ### Micoworks
 
