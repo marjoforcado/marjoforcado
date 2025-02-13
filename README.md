@@ -13,6 +13,11 @@ Hello there! I'm Marjo Forcado, a seasoned software engineer with 9 years of han
 
 Throughout my career, I've had the privilege to collaborate with various companies, contributing to the success of diverse projects. Here are some highlights:
 
+### Beensprout
+
+- Design and architect the software and hardware technology of the cloud services
+- Plan and execute key features of the application
+
 ### Micoworks
 
 - Worked on a team of developers in implementing a scalable web application using React.
