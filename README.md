@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Welcome to My GitHub Profile 👋
 
-## Getting Started
+Hello there! I'm Marjo Forcado, a seasoned software engineer with 9 years of hands-on experience in the exciting world of full-stack development. My primary programming language is JavaScript, and I thrive on building robust and scalable solutions that make a real impact.
 
-First, run the development server:
+## 🚀 About Me
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 🔧 **Expertise:** Full-stack development, JavaScript (Node.js and React), Web technologies.
+- 👨‍💻 **Experience:** 9 years of coding and problem-solving in various domains.
+- 🌐 **Tech Stacks:** JavaScript, Node.js, React, HTML, CSS, and more.
+- 🎓 **Continuous Learning:** Actively seeking new challenges and staying updated with the latest tech trends.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 💼 Professional Experience
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Throughout my career, I've had the privilege to collaborate with various companies, contributing to the success of diverse projects. Here are some highlights:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Beensprout
 
-## Learn More
+- Lead the design and architecture the company’s cloud services
+- Plan, execute, and document key features of the applications
+- Discuss product related updates with investors
 
-To learn more about Next.js, take a look at the following resources:
+### Micoworks
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Worked on a team of developers in implementing a scalable web application using React.
+- Developed robust back-end solutions with Node.js to handle high traffic loads.
+- Conducted code reviews, provided constructive feedback, and actively participated in architectural decisions to enhance overall product quality.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Samsung Research PH
 
-## Deploy on Vercel
+- Worked as a Front-end Developer specializing in React, collaborating with different departments to deliver high-quality features.
+- Contributed to the development of key functionalities used by major companies.
+- Designed and implemented user interfaces, ensuring a seamless and intuitive experience.
+- Collaborated with cross-functional teams to deliver high-quality software within tight deadlines.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🌱 Current Focus
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+I am passionate about continuous learning and believe in staying at the forefront of technology. Currently, I am diving deep into:
+
+- Exploring serverless architectures and cloud-native development.
+- Enhancing my skills in DevOps and automation for efficient project delivery.
+- Contributing to open-source projects to give back to the community.
+
+## 🤝 Let's Connect!
+
+I'm always open to interesting opportunities, collaboration, and discussions. Feel free to reach out:
+
+- 📧 Email: hello@mrjfrcdo.dev
+- 💼 LinkedIn: [Marjo Forcado](https://www.linkedin.com/in/marjoforcado/)
+- 🐦 Twitter: [@mrjfrcdo.dev](https://twitter.com/mrjfrcdo_dev)
+
+Let's build something amazing together! 🚀✨
