@@ -1,4 +1,5 @@
 import { Particles } from "@/shadcn/components/magicui/particles";
+import { SmoothCursor } from "@/shadcn/components/ui/smooth-cursor";
 import { ReactNode } from "react";
 
 type TProps = {
@@ -16,6 +17,7 @@ export default function Layout({ children }: TProps) {
         color="#000"
         refresh
       />
+      <SmoothCursor />
     </div>
   );
 }
