@@ -1,4 +1,9 @@
 import { Navbar } from "@/app/components/Navbar";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "mrjfrcdo",
+};
 
 export default function Page() {
   return (
