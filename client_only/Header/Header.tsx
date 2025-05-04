@@ -1,18 +1,27 @@
 "use client";
 
 import { Button } from "@/shadcn/components/ui/button";
+import { AtSignIcon, MapPinIcon } from "lucide-react";
 import Image from "next/image";
 
 export function Header() {
   return (
     <div className="flex gap-6">
-      <div className="h-96 w-72 flex-none rounded-lg overflow-hidden relative shadow-lg z-10">
-        <Image
-          src="/images/marjo_forcado.jpeg"
-          alt="marjo_forcado"
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          fill
-        />
+      <div className="space-y-4 w-72 flex-none">
+        <div className="h-96 w-full rounded-lg overflow-hidden relative shadow-lg z-10">
+          <Image
+            src="/images/marjo_forcado.jpeg"
+            alt="marjo_forcado"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            fill
+          />
+        </div>
+        <div className="flex gap-2 items-center">
+          <MapPinIcon /> <span>Manila, Philippines</span>
+        </div>
+        <div className="flex gap-2 items-center">
+          <AtSignIcon /> <span>hello@mrjfrcdo.dev</span>
+        </div>
       </div>
       <div className="flex-grow space-y-4">
         <p className="text-6xl font-semibold">X-Platform Engineer</p>

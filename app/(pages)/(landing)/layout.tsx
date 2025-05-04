@@ -23,7 +23,9 @@ export default function Layout({ children }: TProps) {
         color="#000"
         refresh
       />
-      <SmoothCursor />
+      <SmoothCursor
+        cursor={<div className="size-5 rounded-full bg-primary"></div>}
+      />
     </div>
   );
 }
