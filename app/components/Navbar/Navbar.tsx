@@ -4,7 +4,7 @@ import { Brand } from "../Brand";
 
 export function Navbar() {
   return (
-    <nav className="flex items-center justify-between h-16">
+    <nav className="flex items-center justify-between">
       <Brand />
       <Button variant="ghost" className="size-10">
         <HamburgerIcon className="size-8" />

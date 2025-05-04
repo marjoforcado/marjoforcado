@@ -1,16 +1,20 @@
 import { Navbar } from "@/app/components/Navbar";
 import { Particles } from "@/shadcn/components/magicui/particles";
-import { SmoothCursor } from "@/shadcn/components/ui/smooth-cursor";
-import { ReactNode } from "react";
+import { Metadata } from "next";
+import { Fragment, ReactNode } from "react";
 
 type TProps = {
   children: ReactNode;
 };
 
+export const metadata: Metadata = {
+  title: "mrjfrcdo",
+};
+
 export default function Layout({ children }: TProps) {
   return (
-    <div className="h-screen relative">
-      <div className="px-6">
+    <Fragment>
+      <div className="h-16 flex flex-col justify-center px-6">
         <div className="container mx-auto">
           <Navbar />
         </div>
@@ -23,15 +27,6 @@ export default function Layout({ children }: TProps) {
         color="#000"
         refresh
       />
-      <SmoothCursor
-        cursor={
-          <div className="size-5 rounded-full bg-primary relative">
-            <span className="absolute top-5 text-center left-1/2 transform -translate-x-1/2">
-              You
-            </span>
-          </div>
-        }
-      />
-    </div>
+    </Fragment>
   );
 }

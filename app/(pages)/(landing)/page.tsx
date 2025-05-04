@@ -1,16 +1,26 @@
-import { Header } from "@/client_only/Header";
-import { Metadata } from "next";
+"use client";
 
-export const metadata: Metadata = {
-  title: "mrjfrcdo",
-};
+import { Header } from "@/client_only/Header";
+import { SmoothCursor } from "@/shadcn/components/ui/smooth-cursor";
+import { Fragment } from "react";
 
 export default function Page() {
   return (
-    <div className="px-6">
-      <div className="max-w-5xl mx-auto my-10">
-        <Header />
+    <Fragment>
+      <div className="h-[calc(100vh_-_4rem)] p-6 py-10">
+        <div className="max-w-5xl mx-auto">
+          <Header />
+        </div>
       </div>
-    </div>
+      <SmoothCursor
+        cursor={
+          <div className="size-5 rounded-full bg-primary relative">
+            <span className="absolute top-5 text-center left-1/2 transform -translate-x-1/2">
+              You
+            </span>
+          </div>
+        }
+      />
+    </Fragment>
   );
 }
