@@ -1,3 +1,4 @@
+import { Navbar } from "@/app/components/Navbar";
 import { Particles } from "@/shadcn/components/magicui/particles";
 import { SmoothCursor } from "@/shadcn/components/ui/smooth-cursor";
 import { ReactNode } from "react";
@@ -9,6 +10,11 @@ type TProps = {
 export default function Layout({ children }: TProps) {
   return (
     <div className="h-screen relative">
+      <div className="px-6">
+        <div className="container mx-auto">
+          <Navbar />
+        </div>
+      </div>
       {children}
       <Particles
         className="absolute inset-0 z-0"

@@ -1,4 +1,4 @@
-import { Navbar } from "@/app/components/Navbar";
+import { Header } from "@/client_only/Header";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -8,8 +8,8 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <div className="px-6">
-      <div className="container mx-auto">
-        <Navbar />
+      <div className="max-w-5xl mx-auto my-10">
+        <Header />
       </div>
     </div>
   );
