@@ -24,7 +24,13 @@ export default function Layout({ children }: TProps) {
         refresh
       />
       <SmoothCursor
-        cursor={<div className="size-5 rounded-full bg-primary"></div>}
+        cursor={
+          <div className="size-5 rounded-full bg-primary relative">
+            <span className="absolute top-5 text-center left-1/2 transform -translate-x-1/2">
+              You
+            </span>
+          </div>
+        }
       />
     </div>
   );
