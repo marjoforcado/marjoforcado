@@ -29,10 +29,13 @@ export function Header() {
           I am a software development professional with a decade of experience
           specializing in JavaScript as my primary programming language. As a
           cross-platform full-stack developer, I have a proven track record of
-          delivering robust solutions across web, mobile, and desktop platforms.
-          Currently, I am broadening my expertise by focusing on artificial
-          intelligence development, with the goal of integrating cutting-edge AI
-          technologies into innovative software solutions.
+          delivering robust solutions across web, mobile, and desktop
+          application. Currently, I am broadening my expertise by focusing on
+          <span className="bg-black text-white px-1 font-semibold mx-1">
+            AI Development
+          </span>
+          , with the goal of integrating cutting-edge AI technologies into
+          innovative software solutions.
         </p>
         <div className="space-x-2">
           <Button variant="ghost" size="icon">
