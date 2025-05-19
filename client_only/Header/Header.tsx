@@ -17,10 +17,10 @@ export function Header() {
           />
         </div>
         <div className="flex gap-2 items-center">
-          <MapPinIcon /> <span>Manila, Philippines</span>
+          <MapPinIcon className="size-5" /> <span>Manila, Philippines</span>
         </div>
         <div className="flex gap-2 items-center">
-          <AtSignIcon /> <span>hello@mrjfrcdo.dev</span>
+          <AtSignIcon className="size-5" /> <span>hello@mrjfrcdo.dev</span>
         </div>
       </div>
       <div className="flex-grow space-y-4">
