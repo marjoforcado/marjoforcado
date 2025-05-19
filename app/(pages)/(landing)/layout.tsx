@@ -1,5 +1,11 @@
 import { Navbar } from "@/app/components/Navbar";
 import { Particles } from "@/shadcn/components/magicui/particles";
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+} from "@/shadcn/components/ui/sheet";
 import { Metadata } from "next";
 import { ReactNode } from "react";
 
@@ -13,29 +19,36 @@ export const metadata: Metadata = {
 
 export default function Layout({ children }: TProps) {
   return (
-    <div className="relative">
-      <div className="space-y-4">
-        <div className="h-16 flex flex-col justify-center px-6 sticky top-0 z-30 bg-white">
-          <div className="container mx-auto">
-            <Navbar />
+    <Sheet>
+      <div className="relative">
+        <div className="space-y-4">
+          <div className="h-16 flex flex-col justify-center px-6 sticky top-0 z-30 bg-white">
+            <div className="container mx-auto">
+              <Navbar />
+            </div>
           </div>
+          {children}
+          <footer className="h-20 flex items-center">
+            <div className="container mx-auto flex items-center justify-end">
+              <span className="text-muted-foreground text-sm">
+                Last update April 2025
+              </span>
+            </div>
+          </footer>
         </div>
-        {children}
-        <footer className="h-20 flex items-center">
-          <div className="container mx-auto flex items-center justify-end">
-            <span className="text-muted-foreground text-sm">
-              Last update April 2025
-            </span>
-          </div>
-        </footer>
+        <Particles
+          className="absolute inset-0 z-0"
+          quantity={100}
+          ease={80}
+          color="#000"
+          refresh
+        />
       </div>
-      <Particles
-        className="absolute inset-0 z-0"
-        quantity={100}
-        ease={80}
-        color="#000"
-        refresh
-      />
-    </div>
+      <SheetContent>
+        <SheetHeader>
+          <SheetTitle>Request a meeting</SheetTitle>
+        </SheetHeader>
+      </SheetContent>
+    </Sheet>
   );
 }
