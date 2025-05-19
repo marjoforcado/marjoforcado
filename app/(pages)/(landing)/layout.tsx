@@ -21,9 +21,11 @@ export default function Layout({ children }: TProps) {
           </div>
         </div>
         {children}
-        <footer className="h-12 bg-black flex items-center">
+        <footer className="h-20 flex items-center">
           <div className="container mx-auto flex items-center justify-end">
-            <span className="text-white text-sm">Last update April 2025</span>
+            <span className="text-muted-foreground text-sm">
+              Last update April 2025
+            </span>
           </div>
         </footer>
       </div>
