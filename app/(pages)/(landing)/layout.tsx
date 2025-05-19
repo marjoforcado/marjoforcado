@@ -45,7 +45,7 @@ export default function Layout({ children }: TProps) {
           refresh
         />
       </div>
-      <SheetContent>
+      <SheetContent className="w-full">
         <SheetHeader>
           <SheetTitle>Request a meeting</SheetTitle>
         </SheetHeader>
