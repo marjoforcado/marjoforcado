@@ -6,10 +6,10 @@ import { Button } from "@/shadcn/components/ui/button";
 
 export default function Page() {
   return (
-    <div className="max-w-5xl mx-auto space-y-4">
+    <div className="max-w-5xl mx-auto space-y-4 px-6">
       <Header />
       <h2 className="text-lg font-bold">Experience</h2>
-      <div className="space-y-4">
+      <div className="space-y-4 container">
         <ExperienceCard
           role="Sr. Software Architect | Founder"
           companyName="Beensprout"

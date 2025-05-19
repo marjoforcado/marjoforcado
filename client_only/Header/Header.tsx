@@ -2,13 +2,12 @@
 
 import { Button, buttonVariants } from "@/shadcn/components/ui/button";
 import { SheetTrigger } from "@/shadcn/components/ui/sheet";
-import { Separator } from "@radix-ui/react-context-menu";
 import { AtSignIcon, MapPinIcon } from "lucide-react";
 import Image from "next/image";
 
 export function Header() {
   return (
-    <div className="flex gap-6">
+    <div className="container mx-auto flex flex-col md:flex-row gap-6">
       <div className="space-y-4 w-72 flex-none">
         <div className="h-96 w-full rounded-lg overflow-hidden relative shadow-lg z-10">
           <Image
