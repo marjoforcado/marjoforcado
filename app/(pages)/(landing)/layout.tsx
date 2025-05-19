@@ -1,5 +1,6 @@
 import { Navbar } from "@/app/components/Navbar";
 import { Particles } from "@/shadcn/components/magicui/particles";
+import { Calendar } from "@/shadcn/components/ui/calendar";
 import {
   Sheet,
   SheetContent,
@@ -48,6 +49,14 @@ export default function Layout({ children }: TProps) {
         <SheetHeader>
           <SheetTitle>Request a meeting</SheetTitle>
         </SheetHeader>
+        <div className="flex items-center justify-center">
+          <Calendar />
+        </div>
+        <div className="h-full flex items-center justify-center">
+          <p className="text-sm">
+            Something went wrong, please try again later.
+          </p>
+        </div>
       </SheetContent>
     </Sheet>
   );
