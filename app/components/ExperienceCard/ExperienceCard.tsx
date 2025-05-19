@@ -1,10 +1,11 @@
 import { Badge } from "@/shadcn/components/ui/badge";
+import { ReactNode } from "react";
 
 type TProps = {
   companyName: string;
   duration: string;
   skills: string[];
-  children: string;
+  children: string | ReactNode;
   role: string;
 };
 

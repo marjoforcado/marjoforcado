@@ -1,7 +1,7 @@
 import { Navbar } from "@/app/components/Navbar";
 import { Particles } from "@/shadcn/components/magicui/particles";
 import { Metadata } from "next";
-import { Fragment, ReactNode } from "react";
+import { ReactNode } from "react";
 
 type TProps = {
   children: ReactNode;
@@ -13,9 +13,9 @@ export const metadata: Metadata = {
 
 export default function Layout({ children }: TProps) {
   return (
-    <Fragment>
+    <div className="relative">
       <div className="space-y-4">
-        <div className="h-16 flex flex-col justify-center px-6">
+        <div className="h-16 flex flex-col justify-center px-6 sticky top-0 z-30 bg-white">
           <div className="container mx-auto">
             <Navbar />
           </div>
@@ -29,7 +29,6 @@ export default function Layout({ children }: TProps) {
           </div>
         </footer>
       </div>
-
       <Particles
         className="absolute inset-0 z-0"
         quantity={100}
@@ -37,6 +36,6 @@ export default function Layout({ children }: TProps) {
         color="#000"
         refresh
       />
-    </Fragment>
+    </div>
   );
 }

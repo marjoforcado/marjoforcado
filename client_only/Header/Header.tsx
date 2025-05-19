@@ -31,7 +31,7 @@ export function Header() {
           cross-platform full-stack developer, I have a proven track record of
           delivering robust solutions across web, mobile, and desktop
           application. Currently, I am broadening my expertise by focusing on
-          <span className="bg-black text-white px-1 font-semibold mx-1">
+          <span className="bg-black text-white p-1 font-semibold mx-1 text-sm">
             AI Development
           </span>
           , with the goal of integrating cutting-edge AI technologies into
