@@ -16,6 +16,7 @@ type TProps = {
 
 export const metadata: Metadata = {
   title: "mrjfrcdo",
+  description: "Building rocketships with code",
 };
 
 export default function Layout({ children }: TProps) {
