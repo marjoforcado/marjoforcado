@@ -7,7 +7,7 @@ type TProps = {
   duration: string;
   skills?: string[];
   children: string | ReactNode;
-  role: string;
+  role: string | ReactNode;
   shineBorder?: boolean;
 };
 

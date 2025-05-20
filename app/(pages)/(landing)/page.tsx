@@ -2,6 +2,7 @@
 
 import { ExperienceCard } from "@/app/components/ExperienceCard";
 import { Header } from "@/client_only/Header";
+import { AuroraText } from "@/components/magicui/aurora-text";
 import { Button } from "@/shadcn/components/ui/button";
 
 export default function Page() {
@@ -11,7 +12,11 @@ export default function Page() {
       <h2 className="text-lg font-bold">Experience</h2>
       <div className="space-y-4 container">
         <ExperienceCard
-          role="Sr. Software Architect | Founder"
+          role={
+            <>
+              Sr. Software Architect | <AuroraText>Founder</AuroraText>
+            </>
+          }
           companyName="Beensprout"
           duration="2024 - Present"
           skills={[
