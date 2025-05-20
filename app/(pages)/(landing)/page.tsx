@@ -22,6 +22,7 @@ export default function Page() {
             "AI Engineer",
             "Microservice",
           ]}
+          shineBorder
         >
           Design and Architected the cloud services of the application ensuring
           scalability, reliability, and security. Led the development of both
@@ -62,11 +63,11 @@ export default function Page() {
           role="Batchelors Degree"
           companyName="FEU Institute of Technology"
           duration="2012 - 2016"
-          skills={[]}
         >
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-          hic ex temporibus inventore magni accusamus doloremque in itaque
-          distinctio vitae.
+          Graduated with a degree in Computer Science, specializing in
+          Information Technology. Gained a solid foundation in software
+          development, algorithms, and data structures, and participated in
+          various projects that honed my programming skills.
         </ExperienceCard>
       </div>
     </div>
