@@ -4,6 +4,7 @@ import { ExperienceCard } from "@/app/components/ExperienceCard";
 import { Header } from "@/client_only/Header";
 import { AuroraText } from "@/components/magicui/aurora-text";
 import { Button } from "@/shadcn/components/ui/button";
+import { ArrowRightIcon } from "lucide-react";
 
 export default function Page() {
   return (
@@ -29,14 +30,37 @@ export default function Page() {
           ]}
           shineBorder
         >
-          Design and Architected the cloud services of the application ensuring
-          scalability, reliability, and security. Led the development of both
-          frontend and backend systems, integrated
-          <span className="bg-black text-white p-1 font-semibold mx-1 text-sm">
-            AI-driven features
-          </span>
-          , and implemented microservice architectures to optimize performance
-          and maintainability.
+          <div className="space-y-4">
+            <p className="text-muted-foreground">
+              Design and architected the cloud infrastructure or our application
+              ensuring scalability, reliability, and security. With my expertise
+              in both frontend and backend development, I led the implementation
+              of robust systems, implementing
+              <span className="bg-black text-white p-1 font-semibold mx-1 text-sm">
+                AI-driven
+              </span>
+              features, and established microservice architectures to optimize
+              performance and maintainability.
+            </p>
+            <p className="text-muted-foreground">
+              Behind the scenes, I act as the bridge between the technical and
+              business aspects of the company, ensuring that our technology
+              aligns with our strategic goals. My role involves not only coding
+              and system design but also mentoring the team, driving innovation,
+              and fostering a culture of excellence and collaboration.
+            </p>
+            <div className="border rounded-md p-4 flex items-center justify-between">
+              <div className="leading-0">
+                <p className="text-xs text-muted-foreground">
+                  Learn more about
+                </p>
+                <p className="font-bold text-green-600 text-3xl">Beensprout</p>
+              </div>
+              <Button variant="ghost" size="icon">
+                <ArrowRightIcon />
+              </Button>
+            </div>
+          </div>
         </ExperienceCard>
         <ExperienceCard
           role="Sr., Fullstack Engineer"

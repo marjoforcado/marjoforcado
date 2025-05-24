@@ -41,7 +41,7 @@ export function ExperienceCard({
       <p className="font-bold text-3xl">{companyName}</p>
       <p className="font-bold text-sm">{role}</p>
       <p className="font-semibold text-sm text-muted-foreground">{duration}</p>
-      <p className="text-muted-foreground">{children}</p>
+      <div className="my-4">{children}</div>
       <div className="space-x-2">{renderSkills()}</div>
     </div>
   );
