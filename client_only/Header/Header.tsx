@@ -2,6 +2,7 @@
 
 import { Button, buttonVariants } from "@/shadcn/components/ui/button";
 import { SheetTrigger } from "@/shadcn/components/ui/sheet";
+import { cn } from "@/shadcn/lib/utils";
 import { AtSignIcon, MapPinIcon } from "lucide-react";
 import Image from "next/image";
 
@@ -40,10 +41,13 @@ export function Header() {
         </p>
         <div className="space-x-2">
           <a
-            className={buttonVariants({
-              variant: "ghost",
-              size: "icon",
-            })}
+            className={cn(
+              buttonVariants({
+                variant: "ghost",
+                size: "icon",
+              }),
+              "hover:fill-white"
+            )}
             href="https://github.com/marjoforcado"
             target="_blank"
           >
@@ -57,10 +61,13 @@ export function Header() {
             </svg>
           </a>
           <a
-            className={buttonVariants({
-              variant: "ghost",
-              size: "icon",
-            })}
+            className={cn(
+              buttonVariants({
+                variant: "ghost",
+                size: "icon",
+              }),
+              "hover:fill-white"
+            )}
             href="https://x.com/_mrjfrcdo"
             target="_blank"
           >
