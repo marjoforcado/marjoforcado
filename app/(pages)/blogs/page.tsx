@@ -4,8 +4,8 @@ import Image from "next/image";
 
 export default function Page() {
   return (
-    <div className="flex h-[calc(100vh_-_4rem_-_1rem)] items-center">
-      <div className="container flex flex-col lg:flex-row p-4 mx-auto">
+    <div className="flex h-[calc(100vh_-_4rem_-_1rem)]">
+      <div className="container flex flex-col lg:flex-row py-10 px-4 mx-auto">
         <div className="w-full h-80 bg-gray-200 rounded-xl overflow-hidden shadow-lg">
           <AspectRatio className="size-full overflow-hidden relative z-10">
             <Image
