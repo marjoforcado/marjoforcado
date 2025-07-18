@@ -1,7 +1,7 @@
 ## Checklist
 - [ ] 👀 I have checked the readability of the code
 - [ ] 🧪 I have done manual testing
-- [ ] ⚠️ Did you check for console log errors or warning
+- [ ] ⚠️ Did you check for console log errors or warnings
 
 ## Description
 
