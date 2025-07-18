@@ -26,7 +26,9 @@ export function Header() {
         </div>
       </div>
       <div className="flex-grow space-y-4">
-        <p className="text-6xl font-semibold">X-Platform Engineer</p>
+        <p className="text-6xl font-semibold">
+          X-Platform Fullstack Javascript Engineer
+        </p>
         <p className="text-muted-foreground">
           I am a software development professional with a decade of experience
           specializing in JavaScript as my primary programming language. As a
@@ -82,8 +84,10 @@ export function Header() {
           </a>
         </div>
         <div className="space-x-2">
-          <Button size="sm">Download Resume</Button>
-          <SheetTrigger asChild>
+          <Button size="sm" disabled>
+            Download Resume
+          </Button>
+          <SheetTrigger asChild disabled>
             <Button size="sm">Request a meeting</Button>
           </SheetTrigger>
         </div>
