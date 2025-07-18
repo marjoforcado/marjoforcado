@@ -33,7 +33,7 @@ export default function Layout({ children }: TProps) {
           <footer className="h-20 flex items-center px-6">
             <div className="container mx-auto flex items-center justify-end">
               <span className="text-muted-foreground text-sm">
-                Last update April 2025
+                Last update July 2025
               </span>
             </div>
           </footer>

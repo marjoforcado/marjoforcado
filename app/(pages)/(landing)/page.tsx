@@ -5,6 +5,7 @@ import { Header } from "@/client_only/Header";
 import { AuroraText } from "@/components/magicui/aurora-text";
 import { Button } from "@/shadcn/components/ui/button";
 import { ArrowRightIcon } from "lucide-react";
+import { Fragment } from "react";
 
 export default function Page() {
   return (
@@ -14,9 +15,9 @@ export default function Page() {
       <div className="space-y-4 container">
         <ExperienceCard
           role={
-            <>
+            <Fragment>
               Sr. Software Architect | <AuroraText>Founder</AuroraText>
-            </>
+            </Fragment>
           }
           companyName="Beensprout"
           duration="2024 - Present"
@@ -63,7 +64,7 @@ export default function Page() {
           </div>
         </ExperienceCard>
         <ExperienceCard
-          role="Sr., Fullstack Engineer"
+          role="Sr. Fullstack Engineer"
           companyName="Micoworks PH"
           duration="2023 - Present"
           skills={["AWS", "Front End", "Back End", "Database"]}
