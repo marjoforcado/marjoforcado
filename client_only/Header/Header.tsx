@@ -95,9 +95,12 @@ export function Header() {
           >
             <DownloadIcon /> Download Resume
           </a>
-          <SheetTrigger asChild disabled>
+          <SheetTrigger asChild disabled aria-describedby="meeting-request-disabled">
             <Button size="sm">Request a meeting</Button>
           </SheetTrigger>
+          <span id="meeting-request-disabled" className="sr-only">
+            The "Request a meeting" button is currently disabled. It will become available once scheduling options are finalized.
+          </span>
         </div>
       </div>
     </div>
