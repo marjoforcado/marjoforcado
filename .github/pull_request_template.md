@@ -22,7 +22,7 @@
 
 ## Screenshot
 
-// Attack a file showing it works...
+// Attach a file showing it works...
 
 ## Additional Information
 
