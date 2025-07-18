@@ -84,9 +84,15 @@ export function Header() {
           </a>
         </div>
         <div className="space-x-2">
-          <Button size="sm" disabled>
+          <a
+            className={buttonVariants({
+              size: "sm",
+            })}
+            href="/resume/marjo_forcado_resume_2025.pdf"
+            download
+          >
             Download Resume
-          </Button>
+          </a>
           <SheetTrigger asChild disabled>
             <Button size="sm">Request a meeting</Button>
           </SheetTrigger>
