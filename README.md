@@ -46,6 +46,6 @@ I'm always open to interesting opportunities, collaboration, and discussions. Fe
 
 - 📧 Email: hello@mrjfrcdo.dev
 - 💼 LinkedIn: [Marjo Forcado](https://www.linkedin.com/in/marjoforcado/)
-- 🐦 Twitter: [@mrjfrcdo.dev](https://twitter.com/mrjfrcdo_dev)
+- 🐦 Twitter: [@_mrjfrcdo](https://x.com/_mrjfrcdo)
 
 Let's build something amazing together! 🚀✨

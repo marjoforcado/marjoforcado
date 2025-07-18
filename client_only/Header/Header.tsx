@@ -2,7 +2,8 @@
 
 import { Button, buttonVariants } from "@/shadcn/components/ui/button";
 import { SheetTrigger } from "@/shadcn/components/ui/sheet";
-import { AtSignIcon, MapPinIcon } from "lucide-react";
+import { cn } from "@/shadcn/lib/utils";
+import { AtSignIcon, DownloadIcon, MapPinIcon } from "lucide-react";
 import Image from "next/image";
 
 export function Header() {
@@ -25,7 +26,9 @@ export function Header() {
         </div>
       </div>
       <div className="flex-grow space-y-4">
-        <p className="text-6xl font-semibold">X-Platform Engineer</p>
+        <p className="text-6xl font-semibold">
+          X-Platform Fullstack Javascript Engineer
+        </p>
         <p className="text-muted-foreground">
           I am a software development professional with a decade of experience
           specializing in JavaScript as my primary programming language. As a
@@ -40,10 +43,13 @@ export function Header() {
         </p>
         <div className="space-x-2">
           <a
-            className={buttonVariants({
-              variant: "ghost",
-              size: "icon",
-            })}
+            className={cn(
+              buttonVariants({
+                variant: "ghost",
+                size: "icon",
+              }),
+              "hover:fill-white"
+            )}
             href="https://github.com/marjoforcado"
             target="_blank"
           >
@@ -57,10 +63,13 @@ export function Header() {
             </svg>
           </a>
           <a
-            className={buttonVariants({
-              variant: "ghost",
-              size: "icon",
-            })}
+            className={cn(
+              buttonVariants({
+                variant: "ghost",
+                size: "icon",
+              }),
+              "hover:fill-white"
+            )}
             href="https://x.com/_mrjfrcdo"
             target="_blank"
           >
@@ -74,11 +83,24 @@ export function Header() {
             </svg>
           </a>
         </div>
-        <div className="space-x-2">
-          <Button size="sm">Download Resume</Button>
-          <SheetTrigger asChild>
+        <div className="space-x-2 items-center flex">
+          <a
+            className={cn(
+              buttonVariants({
+                size: "sm",
+              })
+            )}
+            href="/resume/marjo_forcado_resume_2025.pdf"
+            download
+          >
+            <DownloadIcon /> Download Resume
+          </a>
+          <SheetTrigger asChild disabled aria-describedby="meeting-request-disabled">
             <Button size="sm">Request a meeting</Button>
           </SheetTrigger>
+          <span id="meeting-request-disabled" className="sr-only">
+            The "Request a meeting" button is currently disabled. It will become available once scheduling options are finalized.
+          </span>
         </div>
       </div>
     </div>
