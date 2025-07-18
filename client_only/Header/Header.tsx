@@ -3,7 +3,7 @@
 import { Button, buttonVariants } from "@/shadcn/components/ui/button";
 import { SheetTrigger } from "@/shadcn/components/ui/sheet";
 import { cn } from "@/shadcn/lib/utils";
-import { AtSignIcon, MapPinIcon } from "lucide-react";
+import { AtSignIcon, DownloadIcon, MapPinIcon } from "lucide-react";
 import Image from "next/image";
 
 export function Header() {
@@ -83,15 +83,17 @@ export function Header() {
             </svg>
           </a>
         </div>
-        <div className="space-x-2">
+        <div className="space-x-2 items-center flex">
           <a
-            className={buttonVariants({
-              size: "sm",
-            })}
+            className={cn(
+              buttonVariants({
+                size: "sm",
+              })
+            )}
             href="/resume/marjo_forcado_resume_2025.pdf"
             download
           >
-            Download Resume
+            <DownloadIcon /> Download Resume
           </a>
           <SheetTrigger asChild disabled>
             <Button size="sm">Request a meeting</Button>
