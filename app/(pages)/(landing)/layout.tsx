@@ -7,16 +7,10 @@ import {
   SheetHeader,
   SheetTitle,
 } from "@/shadcn/components/ui/sheet";
-import { Metadata } from "next";
 import { ReactNode } from "react";
 
 type TProps = {
   children: ReactNode;
-};
-
-export const metadata: Metadata = {
-  title: "mrjfrcdo",
-  description: "Building rocketships with code",
 };
 
 export default function Layout({ children }: TProps) {
