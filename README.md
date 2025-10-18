@@ -6,7 +6,7 @@ Hello there! I'm Marjo Forcado, a seasoned software engineer with 9 years of han
 
 - 🔧 **Expertise:** Full-stack development, JavaScript (Node.js and React), Web technologies, Microservice Architecture, Micro Frontend, Micro Backend, Solutions Architect.
 - 👨‍💻 **Experience:** 10 years of coding and problem-solving in various domains.
-- 🌐 **Tech Stacks:** Javascript, NodeJS, React, React Native, Expo, NextJS, NestJS, Tanstack Query, TailwindCSS, gRPC, Kafka, MySQL, PostgreSQL, Prisma, AWS, Python.
+- 🌐 **Tech Stacks:** Javascript, NodeJS, React, React Native, Expo, NextJS, NestJS, Tanstack Query, TailwindCSS, gRPC, Kafka, MySQL, PostgreSQL, Prisma, AWS, Python, FastAPI.
 - 🎓 **Continuous Learning:** Actively seeking new challenges and staying updated with the latest tech trends.
 
 ## 💼 Professional Experience
