@@ -15,6 +15,9 @@ Throughout my career, I've had the privilege to collaborate with various compani
 
 ### Beensprout
 
+<img width="459" height="85" alt="brand_primary" src="https://github.com/user-attachments/assets/1fb7e9d8-25aa-4edd-9c55-602fb28b78b1" />
+
+
 - Lead the design and architecture the company’s cloud services
 - Plan, execute, and document key features of the applications
 - Discuss product related updates with investors
